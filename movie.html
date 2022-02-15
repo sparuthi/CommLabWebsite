@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <title>ZOOM-movie</title>
+      <link rel= "stylesheet" href= "style.css"/>
+  </head>
+  <body>
+    <!-- <video  width="320" height="240" top="400px" autoplay>
+      <source src="Introducing_Zoom.mp4" type="video/mp4">
+      <!-- <source src="movie.ogg" type="video/ogg"> -->
+      <!-- poster="zoom.jpg" -->
+    <!-- </video> --> -->
+  <div class="video">
+  <video id="video1" width="700px">
+    <source src="Introducing_Zoom.mp4" type="video/mp4">
+    <!-- <source src="mov_bbb.ogg" type="video/ogg">
+    Your browser does not support HTML video. -->
+  </video>
+  <div >
+  <button onclick="playPause()">Play/Pause</button>
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+  <br><br>
+  </div>
+</div>
+
+<script>
+var myVideo = document.getElementById("video1");
+
+function playPause() {
+  if (myVideo.paused)
+    myVideo.play();
+  else
+    myVideo.pause();
+}
+
+function makeBig() {
+    myVideo.width = 900;
+}
+
+function makeSmall() {
+    myVideo.width = 500;
+}
+
+function makeNormal() {
+    myVideo.width = 700;
+}
+</script>
+    <div class="navigation-panel">
+      <a class= "Home"
+      href= "index.html">HOME</a>
+      <a class= "about-us"
+      href="aboutus.html"> ABOUT US</a>
+      <a class = "Themovie"
+      href= "movie.html">ZOOM: The movie</a>
+    </div>
+    <div class="Title">
+      ZOOM: The movie
+    </div>
+    <div class="footer-movie">
+      CONNECT WITH OUR COMMUNITY:
+      <p><img class= "sociallogo" alt="instagram" src= "instagram-logo.png">@moviewebsite</p>
+      <p><img class= "sociallogo" src= "twitter logo.png">@moviewebsite</p>
+      <p><img class= "sociallogo" src= "fb logo.png">@moviewebsite</p>
+      <p><img class= "sociallogo" src= "snapchat logo.png">@moviewebsite</p>
+      © 2022 Shanaia Paruthi
+    </div>
+  </body>
+</html>

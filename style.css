@@ -1,0 +1,297 @@
+
+body{
+
+background-color: #DEEBF4;
+}
+
+img {
+  width: 700px;
+  length: 600px;
+  position: absolute;
+  top:300px;
+  right: 720px;
+  /* left: 10px; */
+}
+img.picture-of-us{
+    width: 600px;
+    length: 600px;
+    position: absolute;
+    top: 320px;
+    right: 825px;
+}
+
+.video{
+  width: 900px;
+  length: 900px;
+  position: absolute;
+  top: 300px;
+  right: 505px;
+}
+
+ a {
+  display: block;
+  width: 100%;
+}
+
+
+
+.subheading{
+  width: 300px;
+  /* length: 100px; */
+  position: absolute;
+  top:300px;
+  right: 380px;
+  /* left: 10px; */
+}
+
+.random-paragraph{
+  width: 200px;
+  /* length: 200px; */
+  position: absolute;
+  top:350px;
+  right: 450px;
+  /* left: 250px; */
+
+  padding: 10px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.navigation-panel{
+  width: 250px;
+  length: 50px;
+  position: static;
+  position: fixed;
+  top: 200px;
+  right: 0px;
+  background-color: lightblue;
+  padding: 30px;
+  border: 50px solid lightblue;
+  color: black;
+}
+
+.about-us{
+  width: 250px;
+  length: 200px;
+  /* position: fixed; */
+  top: 390px;
+  right: 0px;
+   background-color: lightblue;
+  padding: 30px;
+  border: 50px solid lightblue;
+  color: black;
+}
+
+.Themovie {
+  width: 250px;
+  length: absolute;
+  /* position: fixed; */
+  top: 580px;
+ bottom:0px;
+  right: 0px;
+  color: black;
+
+  background-color: lightblue;
+  padding: 30px;
+  border: 50px solid lightblue;
+
+}
+
+.Home{
+   width: 250px;
+  length: absolute;
+   /* position: fixed; */
+  top: 150px;
+  right: 0px;
+
+  background-color: lightblue;
+  padding: 30px;
+  border: 50px solid lightblue;
+  color:black;
+}
+
+.description{
+  position: absolute;
+  top: 900px;
+  width:68%;
+  right: 400px;
+  left: 10px;
+  background-color: white;
+  padding: 10px;
+  border: 10px solid black;
+
+
+  font-size: 150%;
+}
+
+.words{
+  font-style: impact;
+  font-size:200%;
+  font-weight: bolder;
+}
+
+.subscribers{
+  position: absolute;
+  top:1250px;
+  right: 400px;
+  left: 50px;
+
+  background-color: white;
+  padding: 10px;
+  border: 10px solid black;
+  width:25%;
+
+  font-size: 300%;
+}
+.engagement-rate{
+  position: absolute;
+  top:1250px;
+  /* right: 400px; */
+  left: 550px;
+
+  background-color: white;
+  padding: 10px;
+  border: 10px solid black;
+  width:25%;
+
+  font-size: 300%;
+}
+
+.subscribe-button{
+  position: absolute;
+  top:1600px;
+  /* right: 400px; */
+  left: 350px;
+  color: black;
+
+  background-color: #DCDFE0;
+  padding: 10px;
+  border: 5px solid black;
+  width:20%;
+
+  font-size: 200%;
+}
+.contact-link{
+  position: absolute;
+  top:1680px;
+  /* right: 400px; */
+  left: 340px;
+  color: black;
+
+  background-color: #DCDFE0;
+  padding: 10px;
+  border: 5px solid black;
+  width:22%;
+
+  font-size: 200%;
+}
+
+
+.Title{
+  /* width: absolute; */
+
+  length: 100px;
+  position: fixed;
+  top:0px;
+  right: 0px;
+  left: 0px;
+  margin:0px;
+
+ background-color: #3AA5BF;
+  padding: 10px;
+  border: 70px solid #3AA5BF;
+
+  font-style: impact;
+  font-size: 60px;
+
+}
+
+.footer-home{
+  length: 100px;
+  position: absolute;
+  width:69.5%;
+  top:1800px;
+  /* bottom: 0px; */
+  right: 0px;
+  left: 0px;
+  margin:0px;
+
+ background-color: #E0E4E5;
+  padding: 10px;
+  border: 5px solid #E0E4E5;
+
+  font-style: impact;
+  font-size: 20px;
+}
+
+.footer-left{
+  length: 100px;
+  position: absolute;
+  width:69.5%;
+  top: 700px;
+  /* bottom: 0px; */
+  right: 0px;
+  left: 0px;
+  margin:0px;
+
+ background-color: #E0E4E5;
+  padding: 10px;
+  border: 5px solid #E0E4E5;
+
+  font-style: impact;
+  font-size: 20px;
+}
+
+.footer-movie{
+  length: 100px;
+  position: absolute;
+  width:69.5%;
+  top:1000px;
+  /* bottom: 0px; */
+  right: 0px;
+  left: 0px;
+  margin:0px;
+
+ background-color: #E0E4E5;
+  padding: 10px;
+  border: 5px solid #E0E4E5;
+
+  font-style: impact;
+  font-size: 20px;
+}
+
+.sociallogo{
+  position: static;
+  width: 20px;
+  height:20px;
+  top:1700px;
+  left: 5px;
+
+}
+
+.aboutus-paragraph{
+  width: 300px;
+  /* length: 200px; */
+  position: absolute;
+  top:300px;
+  right: 480px;
+  /* left: 250px; */
+
+  padding: 10px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.submit{
+  position:absolute;
+  top:700px;
+  left: 340px;
+  color: black;
+
+  background-color: #DCDFE0;
+  padding: 10px;
+  border: 5px solid black;
+  width:22%;
+
+  font-size: 200%;
+}
